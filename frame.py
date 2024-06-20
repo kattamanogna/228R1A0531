@@ -16,9 +16,13 @@ def saveData():
            messagebox.showerror('error','problem in database')
 
 window = Tk()
+window.title("hhh")
+window.geometry('925x500+300+200')
+
 background =ImageTk.PhotoImage(file='download.jpeg')
 blabel=Label(window,image=background)
 blabel.grid()
+
 # Add widgets and set up your GUI here
 frame = Frame(window)
 frame.place(x=600,y=100)
